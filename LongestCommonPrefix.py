@@ -1,3 +1,6 @@
+import sys
+
+
 class Solution(object):
     def longestCommonPrefix(self, strs):
         minLen = sys.maxint

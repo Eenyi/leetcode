@@ -6,4 +6,6 @@ class Solution(object):
                 if (nums[i]+nums[j] == target): 
                  result.append(i)
                  result.append(j)
-        return result
+                 return result
+sol = Solution()
+print(sol.twoSum([1,2,3,4,5,6,7], 5))
